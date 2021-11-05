@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    
 }
 
 /* header style*/
@@ -61,6 +62,12 @@ a {
 }
 /* hero style end */
 
+/* p style */
+p {
+    font-size: 16px;
+}
+/* p style end */ 
+
 /* article style */
 .float-left {
     float: left;
@@ -70,10 +77,6 @@ a {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-p {
-    font-size: 16px;
 }
 
 article {
@@ -113,49 +116,17 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -170,7 +141,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
 /* footer style end */
